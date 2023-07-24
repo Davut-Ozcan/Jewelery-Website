@@ -1,0 +1,183 @@
+body{
+    box-sizing: border-box;
+    margin: 1;
+    background-color: #F2EAD3;
+    color: black;
+    font-family: ui-rounded;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+
+}
+
+main{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 5%;
+}
+.video-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.vid {
+    width: 100%;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    z-index: 1;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+header{
+    grid-area: header;
+    padding:20px;
+    
+    background-color:#F5F5F5;
+    color: #fff;
+    text-align: center;
+
+}
+header > img{
+    width: 90%;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+   list-style: none;
+   text-align: center;
+}
+nav ul :hover{
+    background-color:black ;
+    color: white;
+}
+.topnav{
+    
+    background-color: #F5F5F5;
+    overflow: hidden;
+    padding: 8px 8px;
+}
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+nav li{
+    display: inline-block;
+}
+
+section{
+    display: flex;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: #fff;
+
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.main img{
+    width: 40%;
+    
+    
+}
+.HEADİNG{
+    text-align: center;
+}
+
+.BS{
+    text-align: center;
+}
+
+article h2 {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .image-hover {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image-hover img {
+    transition: opacity 0.3s ease;
+    opacity: 1;
+  }
+  
+  .image-hover .hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+  }
+  
+  .image-hover:hover .hover-image {
+    opacity: 1;
+  }
+  
+  .image-hover:hover img {
+    opacity: 0;
+  }
+  
+ 
+  article {
+    flex: 1;
+  }
+  
+  .image-hover img,
+  .image-hover .hover-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+  }         
+footer{
+    background-color: #DFD7BF;
+    color: black;
+    display: flex;
+}
+footer div{
+    flex: 1;
+
+}
+
+footer > div > img {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    width: 40%;
+}
